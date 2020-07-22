@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>hello</title>
+
+<link rel="stylesheet" href="css/libs.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>    
+    <!-- Header -->
+    <header class="header">
+	<div class="navbar" id="nav">
+		<div class="container">
+			<div class="navbar__wrapper">
+				<!-- logo -->
+				<div class="navbar__logo">
+					<a class="navbar__logo-link" href="/">
+						<img class="navbar__logo-img" src="img/logo.png" alt="logo">
+					</a>
+				</div>
+				<!-- burger menu -->
+				<div class="navbar__collapse">
+					<span></span>
+				</div>
+				<!-- menu -->
+				<ul class="navbar__menu">
+					<li class="navbar__menu-item active"><a class="navbar__menu-link" href="/">Ковка</a></li>
+					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Ворота</a></li>
+					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Цены</a></li>
+					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Автоматика</a></li>
+					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Ремонт</a></li>
+					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Объекты</a></li>
+					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Отзывы</a></li>
+					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Контакты</a></li>
+				</ul>
+				<!-- phone -->
+				<div class="navbar__phone phone">
+					<a class="navbar__phone-link" href="#request-call" data-fancybox>
+						<div class="navbar__phone-number">
+							<i class="fa fa-phone"></i>
+							<span>(097) 600-09-09</span>
+						</div>
+						<div class="navbar__phone-text">Заказать звонок</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+    <!-- /.Header -->
+    <!-- Main -->
+    <main>
+        <section class="slider">
+    <div class="slider__list" id="slider-home">
+        <div class="slider__item" style="background-image: url('../img/slide-1.jpg');">
+            <div class="container">
+                <div class="slider__wrapper">
+                    <h1 class="slider__title">Aвтоматические ворота под ключ</h1>
+                    <p class="slider__subtitle">При заказе откатных или распашных ворот с автоматикой действует скидка 1000 грн. от стоимости в прайсе.</p>
+                    <a href="#order-miscalculation" data-fancybox class="slider__btn btn">Заказать просчет</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item" style="background-image: url('../img/slide-1.jpg');">
+            <div class="container">
+                <div class="slider__wrapper">
+                    <h1 class="slider__title">Aвтоматические ворота под ключ</h1>
+                    <p class="slider__subtitle">При заказе откатных или распашных ворот с автоматикой действует скидка 1000 грн. от стоимости в прайсе.</p>
+                    <a href="#order-miscalculation" data-fancybox class="slider__btn btn">Заказать просчет</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item" style="background-image: url('../img/slide-1.jpg');">
+            <div class="container">
+                <div class="slider__wrapper">
+                    <h1 class="slider__title">Aвтоматические ворота под ключ</h1>
+                    <p class="slider__subtitle">При заказе откатных или распашных ворот с автоматикой действует скидка 1000 грн. от стоимости в прайсе.</p>
+                    <a href="#order-miscalculation" data-fancybox class="slider__btn btn">Заказать просчет</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="services">
+    <div class="container">
+        <h2 class="services__title section-title">Наши услуги</h2>
+        <div class="services__list">
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-1.png" alt=""></div>
+                <div class="title"><span>Откатные ворота</span></div>
+            </a>
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-2.png" alt=""></div>
+                <div class="title"><span>Гаражные ворота</span></div>
+            </a>
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-3.png" alt=""></div>
+                <div class="title"><span>Распашные ворота</span></div>
+            </a>
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-4.png" alt=""></div>
+                <div class="title"><span>Кованые ворота</span></div>
+            </a>
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-5.png" alt=""></div>
+                <div class="title"><span>Заборы</span></div>
+            </a>
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-6.png" alt=""></div>
+                <div class="title"><span>Навесы и козырьки</span></div>
+            </a>
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-7.png" alt=""></div>
+                <div class="title"><span>Решетки на окна</span></div>
+            </a>
+            <a class="services__item" href="#">
+                <div class="img"><img src="img/services-8.png" alt=""></div>
+                <div class="title"><span>Лавки, качели, лестницы</span></div>
+            </a>
+        </div>
+    </div>
+</section>
+        <section class="gate-automation">
+    <div class="container">
+        <h2 class="gate-automation__title section-title">Автоматика для ворот</h2>
+        <div class="gate-automation__list">
+            <div class="gate-automation__item">
+                <div class="img"><img src="img/door.jpg" alt="DOORHAN"></div>
+                <div class="title">АВТОМАТИКА DOORHAN</div>
+                <div class="price">Цены от 7000 грн.</div>
+            </div>
+            <div class="gate-automation__item">
+                <div class="img"><img src="img/brand-2.png" alt="ALUTECH"></div>
+                <div class="title">АВТОМАТИКА ALUTECH</div>
+                <div class="price">Цены от 7000 грн.</div>
+            </div>
+            <div class="gate-automation__item">
+                <div class="img"><img src="img/brand-3.png" alt="HORMANN"></div>
+                <div class="title">АВТОМАТИКА HORMANN</div>
+                <div class="price">Цены от 9000 грн.</div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="numbers">
+    <div class="overlay"></div>
+    <div class="container">
+        <h2 class="numbers__title section-title">Наша компания в цифрах</h2>
+        <div class="numbers__list">
+            <div class="numbers__item">
+                <div class="num">7</div>
+                <div class="text">лет на рынке</div>
+            </div>
+            <div class="numbers__item">
+                <div class="num">120</div>
+                <div class="text">завершенных проектов</div>
+            </div>
+            <div class="numbers__item">
+                <div class="num">140</div>
+                <div class="text">Довольных клиентов</div>
+            </div>
+            <div class="numbers__item">
+                <div class="num">90</div>
+                <div class="text">проектов в обслуживании</div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="objects">
+    <div class="container">
+        <h2 class="objects__title section-title">ВЫПОЛНЕННЫЕ ОБЪЕКТЫ</h2>
+        <div class="objects__list">
+            <div class="objects__item">
+                <div class="img">
+                    <a href="img/object-1.jpg" data-fancybox="item-1"><img src="img/object-1.jpg" alt="Гаражные автоматические ворота"></a>
+                    <a href="img/object-1.jpg" data-fancybox="item-1"><img src="img/object-1.jpg" alt="Гаражные автоматические ворота"></a>
+                    <a href="img/object-1.jpg" data-fancybox="item-1"><img src="img/object-1.jpg" alt="Гаражные автоматические ворота"></a>
+                </div>
+                <div class="title">Гаражные автоматические ворота</div>
+            </div>
+            <div class="objects__item">
+                <div class="img">
+                    <a href="img/object-2.jpg" data-fancybox="item-2"><img src="img/object-2.jpg" alt="Откатные автоматические ворота"></a>
+                    <a href="img/object-2.jpg" data-fancybox="item-2"><img src="img/object-2.jpg" alt="Откатные автоматические ворота"></a>
+                    <a href="img/object-2.jpg" data-fancybox="item-2"><img src="img/object-2.jpg" alt="Откатные автоматические ворота"></a>
+                </div>
+                <div class="title">Откатные автоматические ворота</div>
+            </div>
+            <div class="objects__item">
+                <div class="img">
+                    <a href="img/object-3.jpg" data-fancybox="item-3"><img src="img/object-3.jpg" alt="Распашные автоматические ворота"></a>
+                    <a href="img/object-3.jpg" data-fancybox="item-3"><img src="img/object-3.jpg" alt="Распашные автоматические ворота"></a>
+                    <a href="img/object-3.jpg" data-fancybox="item-3"><img src="img/object-3.jpg" alt="Распашные автоматические ворота"></a>
+                </div>
+                <div class="title">Распашные автоматические ворота</div>
+            </div>
+            <div class="objects__item">
+                <div class="img">
+                    <a href="img/object-4.jpg" data-fancybox="item-4"><img src="img/object-4.jpg" alt="Кованые ворота"></a>
+                    <a href="img/object-4.jpg" data-fancybox="item-4"><img src="img/object-4.jpg" alt="Кованые ворота"></a>
+                    <a href="img/object-4.jpg" data-fancybox="item-4"><img src="img/object-4.jpg" alt="Кованые ворота"></a>
+                </div>
+                <div class="title">Кованые ворота</div>
+            </div>
+            <div class="objects__item">
+                <div class="img">
+                    <a href="img/object-5.jpg" data-fancybox="item-5"><img src="img/object-5.jpg" alt="Автоматика"></a>
+                    <a href="img/object-5.jpg" data-fancybox="item-5"><img src="img/object-5.jpg" alt="Автоматика"></a>
+                    <a href="img/object-5.jpg" data-fancybox="item-5"><img src="img/object-5.jpg" alt="Автоматика"></a>
+                </div>
+                <div class="title">Автоматика</div>
+            </div>
+            <div class="objects__item">
+                <div class="img">
+                    <a href="img/object-6.jpg" data-fancybox="item-6"><img src="img/object-6.jpg" alt="Кованные изделия"></a>
+                    <a href="img/object-6.jpg" data-fancybox="item-6"><img src="img/object-6.jpg" alt="Кованные изделия"></a>
+                    <a href="img/object-6.jpg" data-fancybox="item-6"><img src="img/object-6.jpg" alt="Кованные изделия"></a>
+                </div>
+                <div class="title">Кованные изделия</div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="about">
+    <div class="about__wrapper">
+        <div class="about__text">
+            <div class="container">
+                <div class="about__body">
+                    <h2 class="about__title section-title">О нас</h2>
+                    <div class="about__content">
+                        <p>Наша компания  уже более 6 лет занимается производством и монтажом  всех типов автоматических ворот. Мы изготавливаем гаражные, секционные, откатные, распашные, бытовые, промышленные, панорамные, рулонные  и другие автоматические ворота.  Мы имеем партнерские отношения со многими передовыми производителями фурнитуры, комплектующих и прочего оборудования для ворот, которые вы всегда можете приобрести у нас по разумной цене. Вся наша продукция оснащена сертифицированными системами автоматики фирм  CAME  FAAC  NICE  и DOORHAN.</p>
+                        <p>Мы предлагаем вам  автоматические ворота, а также все прилагающиеся к ним аксессуары и  системы автоматики, начиная от самых бюджетных образцов, заканчивая эксклюзивными вариантами, оснащенными  автоматическими системами самых престижных и известных брендов.На нашем сайте вы сможете найти огромный выбор электроприводов для автоматических ворот, а также автоматические шлагбаумы и роллеты на ворота и окна.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about__img">
+            <div class="container">
+                <div class="about__img-body">
+                    <div class="about__img-text">
+                        <p>Мы обеспечиваем полный цикл изготовления и обслуживания кованых изделий, ворот, автоматики!</p>
+                    </div>
+                    <div class="img">
+                        <img src="img/about-img.jpg" alt="О нас">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="repair">
+    <div class="container">
+        <h2 class="repair__title section-title">РЕМОНТ ВОРОТ И АВТОМАТИКИ</h2>
+
+        <div id="repair-tabs" class="repair-block">
+            <ul class="repair-tabs-ver resp-tabs-list ver_1">
+                <li>РЕМОНТ РОЛЕТНЫХ ВОРОТ</li>
+                <li>РЕМОНТ СЕКЦИОННЫХ ВОРОТ</li>
+                <li>РЕМОНТ РАСПАШНЫХ ВОРОТ</li>
+                <li>РЕМОНТ ОТКАТНЫХ ВОРОТ</li>
+                <li>РЕМОНТ АВТОМАТИКИ КИЕВ</li>
+                <li>РЕМОНТ ГАРАЖНЫХ ВОРОТ</li>
+            </ul>
+            <div class="repair-content resp-tabs-container ver_1">
+                <div>
+                    <div class="repair-block">
+                        <div class="repair-info">
+                            <div class="title">
+                                <h4>1 Самые распространенные виды неисправностей рулонных ворот:</h4>
+                            </div>
+                            <div class="desc">
+                                <p>Рулонные ворота иногда могут выходить из строя. Зачастую это может произойти из-за неправильной эксплуатации, не своевременного сервисного обслуживания, неправильного монтажа конструкции, механических повреждений, попытки взлома и проникновения.  Основными проблемами, с которыми может столкнуться владелец роллетных ворот, могут быть:</p>
+                                <ul>
+                                    <li>Амортизация ламелей;</li>
+                                    <li>Деформирование тяговых пружин;</li>
+                                    <li>Износ двигателя;</li>
+                                    <li>Искажение короба;</li>
+                                    <li>Поломка короба;</li>
+                                    <li>Амортизация редукторов.</li>
+                                </ul>
+                            </div>
+                            <div class="link">
+                                <a href="#order-item" data-fancybox>Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="repair-block">
+                        <div class="repair-info">
+                            <div class="title">
+                                <h4>2 Самые распространенные виды неисправностей рулонных ворот:</h4>
+                            </div>
+                            <div class="desc">
+                                <p>Рулонные ворота иногда могут выходить из строя. Зачастую это может произойти из-за неправильной эксплуатации, не своевременного сервисного обслуживания, неправильного монтажа конструкции, механических повреждений, попытки взлома и проникновения.  Основными проблемами, с которыми может столкнуться владелец роллетных ворот, могут быть:</p>
+                                <ul>
+                                    <li>Амортизация ламелей;</li>
+                                    <li>Деформирование тяговых пружин;</li>
+                                    <li>Износ двигателя;</li>
+                                    <li>Искажение короба;</li>
+                                    <li>Поломка короба;</li>
+                                    <li>Амортизация редукторов.</li>
+                                </ul>
+                            </div>
+                            <div class="link">
+                                <a href="#order-item" data-fancybox>Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="repair-block">
+                        <div class="repair-info">
+                            <div class="title">
+                                <h4>3 Самые распространенные виды неисправностей рулонных ворот:</h4>
+                            </div>
+                            <div class="desc">
+                                <p>Рулонные ворота иногда могут выходить из строя. Зачастую это может произойти из-за неправильной эксплуатации, не своевременного сервисного обслуживания, неправильного монтажа конструкции, механических повреждений, попытки взлома и проникновения.  Основными проблемами, с которыми может столкнуться владелец роллетных ворот, могут быть:</p>
+                                <ul>
+                                    <li>Амортизация ламелей;</li>
+                                    <li>Деформирование тяговых пружин;</li>
+                                    <li>Износ двигателя;</li>
+                                    <li>Искажение короба;</li>
+                                    <li>Поломка короба;</li>
+                                    <li>Амортизация редукторов.</li>
+                                </ul>
+                            </div>
+                            <div class="link">
+                                <a href="#order-item" data-fancybox>Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="repair-block">
+                        <div class="repair-info">
+                            <div class="title">
+                                <h4>4 Самые распространенные виды неисправностей рулонных ворот:</h4>
+                            </div>
+                            <div class="desc">
+                                <p>Рулонные ворота иногда могут выходить из строя. Зачастую это может произойти из-за неправильной эксплуатации, не своевременного сервисного обслуживания, неправильного монтажа конструкции, механических повреждений, попытки взлома и проникновения.  Основными проблемами, с которыми может столкнуться владелец роллетных ворот, могут быть:</p>
+                                <ul>
+                                    <li>Амортизация ламелей;</li>
+                                    <li>Деформирование тяговых пружин;</li>
+                                    <li>Износ двигателя;</li>
+                                    <li>Искажение короба;</li>
+                                    <li>Поломка короба;</li>
+                                    <li>Амортизация редукторов.</li>
+                                </ul>
+                            </div>
+                            <div class="link">
+                                <a href="#order-item" data-fancybox>Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="repair-block">
+                        <div class="repair-info">
+                            <div class="title">
+                                <h4>5 Самые распространенные виды неисправностей рулонных ворот:</h4>
+                            </div>
+                            <div class="desc">
+                                <p>Рулонные ворота иногда могут выходить из строя. Зачастую это может произойти из-за неправильной эксплуатации, не своевременного сервисного обслуживания, неправильного монтажа конструкции, механических повреждений, попытки взлома и проникновения.  Основными проблемами, с которыми может столкнуться владелец роллетных ворот, могут быть:</p>
+                                <ul>
+                                    <li>Амортизация ламелей;</li>
+                                    <li>Деформирование тяговых пружин;</li>
+                                    <li>Износ двигателя;</li>
+                                    <li>Искажение короба;</li>
+                                    <li>Поломка короба;</li>
+                                    <li>Амортизация редукторов.</li>
+                                </ul>
+                            </div>
+                            <div class="link">
+                                <a href="#order-item" data-fancybox>Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="repair-block">
+                        <div class="repair-info">
+                            <div class="title">
+                                <h4>6 Самые распространенные виды неисправностей рулонных ворот:</h4>
+                            </div>
+                            <div class="desc">
+                                <p>Рулонные ворота иногда могут выходить из строя. Зачастую это может произойти из-за неправильной эксплуатации, не своевременного сервисного обслуживания, неправильного монтажа конструкции, механических повреждений, попытки взлома и проникновения.  Основными проблемами, с которыми может столкнуться владелец роллетных ворот, могут быть:</p>
+                                <ul>
+                                    <li>Амортизация ламелей;</li>
+                                    <li>Деформирование тяговых пружин;</li>
+                                    <li>Износ двигателя;</li>
+                                    <li>Искажение короба;</li>
+                                    <li>Поломка короба;</li>
+                                    <li>Амортизация редукторов.</li>
+                                </ul>
+                            </div>
+                            <div class="link">
+                                <a href="#order-item" data-fancybox>Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+        <section class="review">
+    <div class="container">
+        <h2 class="review__title section-title">Что говорят наши клиенты</h2>
+        <div id="slider-review" class="review__list">
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Александра Измайленко</div>
+                        <div class="social">Отзыв Инстаграм</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Хочу поблагодарить за оперативность и профессионализм. Вызвал для ремонта откатный ворот( до этого имел много проблем с прошлыми «профи»), приехали все оперативно сделали и все. Спасибо.</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Валентин Стрикало</div>
+                        <div class="social">Отзыв Фейсбук</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Работа сделана отлично! Каждый раз радуюсь чудесам техники, заезжая и выезжая со двора. Уже и забыла те времена, когда нужно было всё делать в ручную. Отличная автоматика и сервис. Смело рекомендую! Благодарю Мастера!</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Роман Марунко</div>
+                        <div class="social">Отзыв с сайта</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Большое спасибо. Я очень довольна. Мастер приятный отзывчивый. Ремонт провел качественно. Наконец то нашла хорошую фирму которой можно довериться. Большое спасибо. Буду всем рекомендовать</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Александра Измайленко</div>
+                        <div class="social">Отзыв Инстаграм</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Хочу поблагодарить за оперативность и профессионализм. Вызвал для ремонта откатный ворот( до этого имел много проблем с прошлыми «профи»), приехали все оперативно сделали и все. Спасибо.</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Валентин Стрикало</div>
+                        <div class="social">Отзыв Фейсбук</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Работа сделана отлично! Каждый раз радуюсь чудесам техники, заезжая и выезжая со двора. Уже и забыла те времена, когда нужно было всё делать в ручную. Отличная автоматика и сервис. Смело рекомендую! Благодарю Мастера!</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Роман Марунко</div>
+                        <div class="social">Отзыв с сайта</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Большое спасибо. Я очень довольна. Мастер приятный отзывчивый. Ремонт провел качественно. Наконец то нашла хорошую фирму которой можно довериться. Большое спасибо. Буду всем рекомендовать</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="feedback"> 
+    <div class="bg"></div>
+    <div class="container">
+        <div class="feedback-wrap">
+            <div class="feedback__info" data-aos="fade-right" data-aos-offset="200">
+                <h2 class="section-title feedback__title">Запишитесь на бесплатную консультацию</h2>
+                <div class="feedback__text">
+                    <p>Оставьте свои контакты и наш менеджер в течении 15 минут вам перезвонит</p>
+                </div>
+                <div class="feedback__contacts">
+                    <span>Связь с нами:</span>
+                    <ul>
+                        <li>(097) 60 00 909</li>
+                        <li>(044) 233 00 73</li>
+                        <li>vorota-kovka@ukr.net</li>
+                        <li>Украина, г. Киев</li>
+                    </ul>
+                </div>
+                <div class="feedback__schedule">
+                    <span>График работы:</span>
+                    <ul>
+                        <li>Пн-Пт.: с 8:00 до 21:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="feedback__form" data-aos="flip-right" data-aos-offset="400">
+                <form>
+                    <h6 class="form__title">Оставить заявку</h6>
+                    <p class="form__subtitle">Оставьте заявку и свяжемся с вами бесплатной консультации</p>
+                    <input class="feedback__input" type="text" id="" placeholder="Имя">
+                    <input class="feedback__input" type="tel" id="" placeholder="Телефон">
+                    <input class="feedback__btn btn" type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- /.Main -->
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <ul class="footer__social">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <div class="footer__text">
+                <p>© 2020 «Ворота Ковка» Все права защищены.</p>
+                <p>*Изготовления и обслуживания кованых изделий, ворот, автоматики!</p>
+            </div>
+            <div class="footer__phone phone">
+                <a class="footer__phone-link" href="#request-call" data-fancybox>
+                    <div class="footer__phone-number">
+                        <i class="fa fa-phone"></i>
+                        <span>(097) 600-09-09</span>
+                    </div>
+                    <div class="footer__phone-text">Заказать звонок</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- /.Footer -->
+    <!-- Modal -->
+    <div id="request-call" class="request-call">
+    <form class="form">
+        <h2>Заказать звонок</h2>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Номер телефона">
+        <input type="submit" placeholder="Отправить">
+    </form>
+</div>
+<div id="order-item" class="order-item">
+    <form class="form">
+        <h2>Оставить заявку на ремонт</h2>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Номер телефона">
+        <textarea placeholder="Сообщение"></textarea>
+        <input type="submit" placeholder="Отправить">
+    </form>
+</div>
+<div id="order-miscalculation" class="order-miscalculation">
+    <form class="form">
+        <h2>Заказать просчет</h2>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Номер телефона">
+        <input type="submit" placeholder="Отправить">
+    </form>
+</div>
+    <!-- /.Modal -->
+    <!-- JS -->
+    <script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+    <!-- /.JS -->
+</body>
+</html>
