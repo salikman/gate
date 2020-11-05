@@ -32,7 +32,23 @@
 				<!-- menu -->
 				<ul class="navbar__menu">
 					<li class="navbar__menu-item active"><a class="navbar__menu-link" href="/">Ковка</a></li>
-					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Ворота</a></li>
+					<li class="navbar__menu-item has-dropdown">
+						<a class="navbar__menu-link" href="/">Ворота</a>
+						<ul class="dropdown">
+							<li class="has-dropdown">
+								<a href="/">Lorem, ipsum.</a>
+								<ul class="dropdown">
+									<li><a href="/">Lorem, ipsum.</a></li>
+									<li><a href="/">Lorem ipsum dolor sit.</a></li>
+									<li><a href="/">lorem</a></li>
+									<li><a href="/">Lorem, ipsum dolor.</a></li>
+								</ul>
+							</li>
+							<li><a href="/">Lorem ipsum dolor sit.</a></li>
+							<li><a href="/">lorem</a></li>
+							<li><a href="/">Lorem, ipsum dolor.</a></li>
+						</ul>
+					</li>
 					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Цены</a></li>
 					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Автоматика</a></li>
 					<li class="navbar__menu-item"><a class="navbar__menu-link" href="/">Ремонт</a></li>
@@ -177,7 +193,7 @@
         <div class="stock__wrapper">
             <h2 class="stock__title">Внимание! Акция на гаражные ворота!</h2>
             <p class="stock__subtitle">Гаражные секционные ворота всего за 440 евро!</p>
-            <a href="#" class="stock__btn btn">Оставить заявку</a>
+            <a href="#order-item-1" data-fancybox class="stock__btn btn">Оставить заявку</a>
         </div>
     </div>
 </div>
@@ -422,7 +438,7 @@
     </ul>
     <form class="form">
         <input type="text" placeholder="Имя">
-        <input type="tel" placeholder="Номер телефона">
+        <input type="tel" placeholder="Номер телефона">,
         <input type="submit" placeholder="Отправить">
     </form>
 </div>
@@ -430,6 +446,16 @@
 <div id="order-item" class="order-item modal-window">
     <form class="form">
         <h2>Оставить заявку на ремонт</h2>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Номер телефона">
+        <textarea placeholder="Сообщение"></textarea>
+        <input type="submit" placeholder="Отправить">
+    </form>
+</div>
+<!-- Оставить заявку -->
+<div id="order-item-1" class="order-item modal-window">
+    <form class="form">
+        <h2>Оставить заявку</h2>
         <input type="text" placeholder="Имя">
         <input type="tel" placeholder="Номер телефона">
         <textarea placeholder="Сообщение"></textarea>

@@ -1,5 +1,9 @@
 (function($) {
 	"use strict";
+	$('.has-dropdown > a').on('click', function(e) {
+		e.preventDefault();
+		$(this).parent().toggleClass('open-drop');
+	});
 	///////////////////////////
 	// Btn nav collapse
 	$("#nav .navbar__collapse").click(function () {
@@ -23,6 +27,7 @@
 	// On Scroll
 	$(window).on('scroll load resize', function() {
 		var wScroll = $(this).scrollTop();
+		var wWidth = $(this).width();
 
 		// Fixed nav
 		wScroll > 1 ? $('#nav').addClass('fixed-nav') : $('#nav').removeClass('fixed-nav');
